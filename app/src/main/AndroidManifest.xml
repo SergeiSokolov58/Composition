@@ -10,14 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Composition">
         <activity
-            android:name=".presentation.WelcomeFragment"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.WelkomeFragment"
-            android:exported="false" />
-        <activity
             android:name=".presentation.MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
